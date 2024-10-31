@@ -6,6 +6,6 @@ Myroslava Hubar
 
 Olga Blud
 
-# UX/UI Designer
+# UX/UI Designer:
 
 Tetiana Khmil
