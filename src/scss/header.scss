@@ -1,1 +1,51 @@
+.header-section {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: $_header_color;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 24px;
 
+  align-items: center;
+  @include media(desktop) {
+    padding: 14px 32px;
+    justify-content: flex-start;
+  }
+}
+.header-logo-link {
+  @include media(desktop) {
+    margin-right: 223px;
+  }
+}
+
+.header-nav {
+  display: none;
+  @include media(desktop) {
+    display: block;
+  }
+}
+.header-nav-list {
+  display: flex;
+  gap: 24px;
+}
+
+.header-nav-list-link {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Mali', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.menu-open-btn {
+  background-color: transparent;
+  border: none;
+  @include media(desktop) {
+    display: none;
+  }
+}

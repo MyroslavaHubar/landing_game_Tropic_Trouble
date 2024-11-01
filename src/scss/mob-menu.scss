@@ -1,0 +1,34 @@
+.section-mobile-menu {
+  background-color: $_header_color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+.mobile-menu-wrap {
+  padding: 32px;
+}
+.menu-close-btn {
+  position: relative;
+  left: 250px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 42px;
+}
+.menu-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-right: 65px;
+  align-items: flex-end;
+}
+.menu-nav-list-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #fff;
+}
