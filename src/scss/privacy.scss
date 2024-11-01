@@ -15,6 +15,20 @@
   padding-bottom: 21px;
 }
 
+.privacy-title-br {
+  display: none;
+}
+
+@include media(desktop) {
+  .privacy .privacy-container {
+    padding: 64px 128px 60px 128px;
+  }
+
+  .privacy-title-br {
+    display: block;
+  }
+}
+
 .header-privacy {
   background-color: $_header_color;
   padding: 25px 0;
@@ -25,6 +39,10 @@
   font-weight: 700;
   font-size: 20px;
   color: #fffdf9;
+  @include media(desktop) {
+    justify-content: flex-start;
+    padding: 31px 128px;
+  }
 }
 
 .privacy-button-icon {
@@ -42,16 +60,19 @@
   font-size: 14px;
   line-height: 1.6;
   color: #000;
+  @include media(desktop) {
+    font-size: 18px;
+  }
 }
 
 .privacy ol {
   list-style-type: none;
-  padding-left: 6px; /* Убираем отступ списка */
+  padding-left: 6px;
 }
 
 .privacy li {
   position: relative;
-  padding-left: 15px; /* Отступ для значка */
+  padding-left: 15px;
 }
 
 .privacy li::before {

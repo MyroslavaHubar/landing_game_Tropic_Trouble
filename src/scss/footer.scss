@@ -31,8 +31,8 @@
 }
 
 @include media(desktop) {
-  .footer-logo {
-    margin-left: 96px;
+  .footer .footer-container {
+    padding-left: 128px;
   }
 
   .footer-break {
