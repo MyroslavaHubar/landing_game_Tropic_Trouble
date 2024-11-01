@@ -1,0 +1,83 @@
+.conditions {
+  background: radial-gradient(
+    240.02% 223.81% at -34.71% -86.81%,
+    rgb(95, 147, 226) 0%,
+    rgb(115, 209, 255) 10.078199207782745%,
+    rgb(96, 232, 250) 32.22172558307648%,
+    rgb(128, 196, 228) 60.553544759750366%,
+    rgb(197, 197, 197) 72.85156846046448%,
+    rgb(224, 201, 106) 92.11816191673279%
+  );
+}
+
+.conditions-container {
+  padding-top: 28px;
+  padding-bottom: 21px;
+}
+
+.header-conditions {
+  background-color: $_header_color;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Mali', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fffdf9;
+}
+
+.conditions-button-icon {
+  margin-right: 35px;
+}
+
+.conditions-button-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.conditions-content {
+  font-family: 'Mali', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #000;
+}
+
+.conditions ol {
+  list-style-type: none;
+  padding-left: 6px; /* Убираем отступ списка */
+}
+
+.conditions li {
+  position: relative;
+  padding-left: 15px; /* Отступ для значка */
+}
+
+.conditions li::before {
+  content: '•';
+  font-family: 'Mali', sans-serif;
+  position: absolute;
+  left: 0;
+  color: #000;
+}
+
+.conditions-title-first {
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.6;
+  text-align: center;
+  color: #b52710;
+  text-shadow: 0 0 9px #ecfbfd;
+  margin-bottom: 21px;
+}
+
+.conditions-title {
+  margin: 24px 0;
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.4;
+  color: #b52710;
+}
