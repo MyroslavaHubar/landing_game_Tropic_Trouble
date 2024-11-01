@@ -1,0 +1,22 @@
+.footer {
+  padding: 48px 0;
+  background-color: $_header_color;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 65px;
+  font-family: 'Mali', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fffdf9;
+}
+
+.footer-nav-item {
+  margin-bottom: 16px;
+}
