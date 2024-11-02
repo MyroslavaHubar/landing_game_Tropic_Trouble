@@ -1,0 +1,79 @@
+.advantages-section {
+  margin-top: 100px;
+  padding-bottom: 48px;
+  background: linear-gradient(
+    180deg,
+    #65e2fc 0%,
+    #b2edfe 40%,
+    #bcf0fe 60%,
+    #cbf5fe 80%,
+    #98ebfc 100%
+  );
+  @include media(desktop) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+.advantages-title {
+  margin-bottom: 32px;
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.6;
+  text-align: center;
+  color: #b52710;
+  text-shadow: 0 0 12px 0 #ecfbfd;
+  @include media(desktop) {
+    font-size: 48px;
+    line-height: 1;
+  }
+}
+.advantages-list {
+  @include media(desktop) {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+.advantages-list-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.advantages-list-item:not(:last-child) {
+  margin-bottom: 32px;
+  @include media(desktop) {
+    margin-bottom: 48px;
+  }
+}
+.advantages-list-item:nth-child(even) {
+  @include media(desktop) {
+    justify-content: flex-end;
+  }
+}
+.advantages-list-item-img {
+  width: 80px;
+  height: 80px;
+  @include media(desktop) {
+    width: 120px;
+    height: 120px;
+  }
+}
+.advantages-list-item:nth-child(even) > .advantages-list-text {
+  @include media(desktop) {
+    text-align: right;
+  }
+}
+
+.advantages-list-text {
+  font-family: 'Mali', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #000;
+  @include media(desktop) {
+    font-size: 20px;
+    color: #17161b;
+    width: 480px;
+  }
+}
