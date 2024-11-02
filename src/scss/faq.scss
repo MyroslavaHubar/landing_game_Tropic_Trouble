@@ -32,17 +32,16 @@
       0.8px 1.6px 2px -0.8px hsl(200deg 22% 4% / 0.36),
       2.1px 4.1px 5.2px -1.7px hsl(200deg 22% 4% / 0.36),
       5px 10px 12.6px -2.5px hsl(200deg 22% 4% / 0.36);
-    & .google-play-btn-content {
-      color: #fff;
+    & .icon-google {
+      fill: #fff;
     }
   }
 }
 
 .link-google-button {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  gap: 13px;
+  gap: 1px;
   @include media(desktop) {
     align-items: flex-start;
   }
@@ -51,27 +50,6 @@
 .google-play-btn-img {
   width: 39px;
   height: 41px;
-}
-
-.google-play-btn-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1px;
-  font-family: 'Arial', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #000000;
-  transition: color 250ms ease-in-out;
-  @include media(desktop) {
-    justify-content: flex-start;
-  }
-}
-
-.google-play-btn-content-strong {
-  font-weight: 600;
-  font-size: 26px;
 }
 
 .container-faq {
