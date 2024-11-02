@@ -84,3 +84,13 @@
   white-space: nowrap;
   clip-path: inset(100%);
 }
+
+html {
+  scroll-padding-top: 40px;
+}
+
+@include media(desktop) {
+  html {
+    scroll-padding-top: 80px;
+  }
+}
