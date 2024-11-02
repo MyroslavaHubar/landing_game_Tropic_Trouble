@@ -1,0 +1,67 @@
+.about {
+  background: linear-gradient(
+    180deg,
+    #a8daf1 0%,
+    #a0d9f2 19.17%,
+    #bddce8 51.5%,
+    #7bd4f6 97.5%
+  );
+}
+
+.about .about-container {
+  padding: 48px 30px 17px 30px;
+  @include media(desktop) {
+    padding: 64px 217px 64px 217px;
+  }
+}
+
+.about-title {
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.6;
+  text-align: center;
+  color: $_header_color;
+  text-shadow: 0 0 9px #ecfbfd;
+  margin-bottom: 32px;
+  @include media(desktop) {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 72px;
+  }
+}
+
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  @include media(desktop) {
+    gap: 72px;
+  }
+}
+
+.about-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+.about-content {
+  font-family: 'Mali', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  color: $_text_color;
+}
+
+@include media(desktop) {
+  .about-card {
+    display: flex;
+    gap: 64px;
+  }
+
+  .about-card-second {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
