@@ -35,6 +35,10 @@
   line-height: 1.4;
   color: #fff;
 }
+.menu-nav-list-link:hover,
+.menu-nav-list-link:focus {
+  text-decoration: underline;
+}
 
 .section-mobile-menu.menu-open {
   transform: translateX(-50%) translateY(0);
