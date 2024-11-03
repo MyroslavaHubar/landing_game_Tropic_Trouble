@@ -1,5 +1,10 @@
 import Swiper from 'swiper';
 import 'swiper/css';
+import { Pagination } from 'swiper/modules';
+
+import 'swiper/css/pagination';
+
+Swiper.use([Pagination]);
 
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
