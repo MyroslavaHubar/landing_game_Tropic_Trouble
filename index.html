@@ -10,7 +10,7 @@
   <script type="module" crossorigin src="/landing_game_Tropic_Trouble/commonHelpers2.js"></script>
   <link rel="modulepreload" crossorigin href="/landing_game_Tropic_Trouble/assets/vendor-0807479e.js">
   <link rel="stylesheet" href="/landing_game_Tropic_Trouble/assets/vendor-7c8ef494.css">
-  <link rel="stylesheet" href="/landing_game_Tropic_Trouble/assets/styles-cb412294.css">
+  <link rel="stylesheet" href="/landing_game_Tropic_Trouble/assets/styles-1800c501.css">
 </head>
 
 <body>
@@ -31,19 +31,19 @@
     <nav class="header-nav">
       <ul class="header-nav-list">
         <li class="header-nav-list-item">
-          <a href="" class="header-nav-list-link">Home</a>
+          <a href="/" class="header-nav-list-link">Home</a>
         </li>
         <li class="header-nav-list-item">
-          <a href="" class="header-nav-list-link">Gallery</a>
+          <a href="#gallery" class="header-nav-list-link">Gallery</a>
         </li>
         <li class="header-nav-list-item">
-          <a href="" class="header-nav-list-link">Advantages</a>
+          <a href="#advantages" class="header-nav-list-link">Advantages</a>
         </li>
         <li class="header-nav-list-item">
-          <a href="" class="header-nav-list-link">Reviews</a>
+          <a href="#reviews" class="header-nav-list-link">Reviews</a>
         </li>
         <li class="header-nav-list-item">
-          <a href="" class="header-nav-list-link">About the App</a>
+          <a href="#about" class="header-nav-list-link">About the App</a>
         </li>
       </ul>
     </nav>
@@ -57,7 +57,7 @@
 
   </header>
   <main>
-    <section class="hero-section">
+    <section class="hero-section section" id="hero">
   <div class="container hero-wrap">
     <div class="hero-content-wrap">
       <h1 class="hero-title">Tropic Trouble Match 3 Builder</h1>
@@ -87,7 +87,7 @@
   </div>
 </section>
 
-    <section class="gallery-section">
+    <section class="gallery-section section" id="gallery">
   <div class="container gallery-wrap">
     <h2 class="gallery-section-title">Gallery</h2>
     <div class="gallery-swiper swiper">
@@ -104,14 +104,13 @@
         <li class="gallery-swiper-slide swiper-slide">
           <img src="../img/gallery/gallery-4@1x.png" alt="game slide 4" />
         </li>
-        
       </ul>
       <div class="swiper-pagination gallery-swiper-pagination"></div>
     </div>
   </div>
 </section>
 
-    <section class="advantages-section">
+    <section class="advantages-section section" id="advantages">
   <div class="container">
     <h2 class="advantages-title">Advantages</h2>
     <ul class="advantages-list">
@@ -170,30 +169,47 @@
 
     
     <!---------------- ABOUT --------------------->
-<section class="about" id="about">
-    <div class="container about-container">
-        <h2 class="about-title">About the App</h2>
-        <div class="about-cards">
-            <div class="about-card">
-                <img srcset="/landing_game_Tropic_Trouble/assets/about-first-90e0b3f8.png 1x, /landing_game_Tropic_Trouble/assets/about-first@2x-4cf2668e.png 2x"
-                    src="/landing_game_Tropic_Trouble/assets/about-first-90e0b3f8.png" alt="image game" width="240" height="240" class="about-img" />
-                <p class="about-content">"Tropic Trouble Match 3 Builder" is a unique blend of match-3 puzzle gameplay
-                    with
-                    island building and adventure. Players are transported to a lush tropical island where
-                    they solve match-3 puzzles to gather resources, which are then used to build and
-                    upgrade various island structures.</p>
-            </div>
-            <div class="about-card about-card-second ">
-                <img srcset="/landing_game_Tropic_Trouble/assets/about-second-e175d0a4.png 1x, /landing_game_Tropic_Trouble/assets/about-second@2x-a386c28b.png 2x"
-                    src="/landing_game_Tropic_Trouble/assets/about-second-e175d0a4.png" alt="image game" width="240" height="240" class="about-img" />
-                <p class="about-content">Each level offers different objectives and
-                    challenges, set against the backdrop of a vibrant paradise. With engaging gameplay,
-                    beautiful scenery, and regular content updates, "Tropic Trouble" is an exciting game
-                    for all fans of the puzzle and builder genres.</p>
-            </div>
-        </div>
+<section class="about section" id="about">
+  <div class="container about-container">
+    <h2 class="about-title">About the App</h2>
+    <div class="about-cards">
+      <div class="about-card">
+        <img
+          srcset="/landing_game_Tropic_Trouble/assets/about-first-90e0b3f8.png 1x, /landing_game_Tropic_Trouble/assets/about-first@2x-4cf2668e.png 2x"
+          src="/landing_game_Tropic_Trouble/assets/about-first-90e0b3f8.png"
+          alt="image game"
+          width="240"
+          height="240"
+          class="about-img"
+        />
+        <p class="about-content">
+          "Tropic Trouble Match 3 Builder" is a unique blend of match-3 puzzle
+          gameplay with island building and adventure. Players are transported
+          to a lush tropical island where they solve match-3 puzzles to gather
+          resources, which are then used to build and upgrade various island
+          structures.
+        </p>
+      </div>
+      <div class="about-card about-card-second">
+        <img
+          srcset="/landing_game_Tropic_Trouble/assets/about-second-e175d0a4.png 1x, /landing_game_Tropic_Trouble/assets/about-second@2x-a386c28b.png 2x"
+          src="/landing_game_Tropic_Trouble/assets/about-second-e175d0a4.png"
+          alt="image game"
+          width="240"
+          height="240"
+          class="about-img"
+        />
+        <p class="about-content">
+          Each level offers different objectives and challenges, set against the
+          backdrop of a vibrant paradise. With engaging gameplay, beautiful
+          scenery, and regular content updates, "Tropic Trouble" is an exciting
+          game for all fans of the puzzle and builder genres.
+        </p>
+      </div>
     </div>
+  </div>
 </section>
+
     <!--------------- FAQ ----------------->
 <section class="faq" id="faq">
     <div class="container container-faq">
@@ -300,19 +316,19 @@
     </button>
     <ul class="menu-nav-list">
       <li class="menu-nav-list-item">
-        <a href="" class="menu-nav-list-link">Home</a>
+        <a href="/" class="menu-nav-list-link">Home</a>
       </li>
       <li class="menu-nav-list-item">
-        <a href="" class="menu-nav-list-link">Gallery</a>
+        <a href="#gallery" class="menu-nav-list-link">Gallery</a>
       </li>
       <li class="menu-nav-list-item">
-        <a href="" class="menu-nav-list-link">Advantages</a>
+        <a href="#advantages" class="menu-nav-list-link">Advantages</a>
       </li>
       <li class="menu-nav-list-item">
-        <a href="" class="menu-nav-list-link">Reviews</a>
+        <a href="#reviews" class="menu-nav-list-link">Reviews</a>
       </li>
       <li class="menu-nav-list-item">
-        <a href="" class="menu-nav-list-link">About the App</a>
+        <a href="#about" class="menu-nav-list-link">About the App</a>
       </li>
     </ul>
   </div>
