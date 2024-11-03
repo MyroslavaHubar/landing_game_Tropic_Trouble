@@ -1,6 +1,5 @@
 .hero-section {
   margin-top: 76px;
-  //   background-image: url(../img/hero/image_home\ 1@2x.png),
   background-image: radial-gradient(
     143.27% 168.77% at -14.92% -21.62%,
     rgb(95, 147, 226) 0%,
@@ -8,10 +7,9 @@
     rgb(96, 232, 250) 32.22172558307648%,
     rgb(128, 196, 228) 60.553544759750366%
   );
+
   @include media(desktop) {
     margin-top: 88px;
-    // background-image: url(../img/hero/Hero_image.png),
-
     background-image: radial-gradient(
       240.02% 223.81% at -34.71% -86.81%,
       rgb(95, 147, 226) 0%,
@@ -22,9 +20,18 @@
       rgb(224, 201, 106) 92.11816191673279%
     );
   }
-  //   background-size: contain;
-  //   background-position: center;
-  //   background-repeat: no-repeat;
+}
+.hero-wrap {
+  padding-top: 10px;
+  background-image: url(../img/hero/hero-bg-mob.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include media(desktop) {
+    padding-top: 48px;
+    background-image: url(../img/hero/hero-bg-desktop.png);
+    background-position: right;
+  }
 }
 
 .hero-content-wrap {
@@ -34,9 +41,6 @@
     padding-top: 182px;
     padding-bottom: 272px;
     padding-left: 128px;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: left;
   }
 }
 .hero-title {
