@@ -50,6 +50,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 9px #ecfbfd;
 
   @include media(desktop) {
     width: 552px;
