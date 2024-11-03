@@ -85,12 +85,9 @@
   clip-path: inset(100%);
 }
 
-html {
+.section {
   scroll-margin-top: 76px;
-}
-
-@include media(desktop) {
-  html {
+  @include media(desktop) {
     scroll-margin-top: 88px;
   }
 }
