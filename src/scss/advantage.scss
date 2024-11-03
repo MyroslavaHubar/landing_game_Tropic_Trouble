@@ -22,7 +22,8 @@
   line-height: 1.6;
   text-align: center;
   color: #b52710;
-  text-shadow: 0 0 12px 0 #ecfbfd;
+
+  text-shadow: 0 0 9px #ecfbfd;
   @include media(desktop) {
     font-size: 48px;
     line-height: 1;

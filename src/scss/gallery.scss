@@ -1,0 +1,57 @@
+.gallery-section {
+  background: linear-gradient(
+    180deg,
+    #80c5e4 0.67%,
+    #cbf5fe 20%,
+    #bcf0fe 40%,
+    #b2edfe 60%,
+    #83dcfe 80%,
+    #65e2fc 100%
+  );
+}
+.gallery-wrap {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  @include media(desktop) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+.gallery-section-title {
+  margin-bottom: 24px;
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.6;
+  text-align: center;
+  color: #b52710;
+
+  text-shadow: 0 0 9px #ecfbfd;
+  @include media(desktop) {
+    margin-bottom: 48px;
+    font-size: 48px;
+    line-height: 1;
+  }
+}
+
+// swiper
+
+.gallery-swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-swiper-slide {
+  width: 320px;
+  height: 512px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
