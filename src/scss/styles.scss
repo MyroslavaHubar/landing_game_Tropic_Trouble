@@ -86,11 +86,11 @@
 }
 
 html {
-  scroll-padding-top: 40px;
+  scroll-margin-top: 76px;
 }
 
 @include media(desktop) {
   html {
-    scroll-padding-top: 80px;
+    scroll-margin-top: 88px;
   }
 }
