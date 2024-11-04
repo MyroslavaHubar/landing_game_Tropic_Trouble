@@ -8,6 +8,19 @@
     #83dcfe 80%,
     #65e2fc 100%
   );
+
+  @include media(desktop) {
+    background: linear-gradient(
+      180deg,
+      #c8c6ba 0%,
+      #99d1e7 5%,
+      #cbf5fe 20%,
+      #bcf0fe 40%,
+      #b2edfe 60%,
+      #83dcfe 80%,
+      #65e2fc 100%
+    );
+  }
 }
 
 .gallery-wrap {
