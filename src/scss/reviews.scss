@@ -1,0 +1,108 @@
+.reviews {
+  background: linear-gradient(
+    180deg,
+    #9becfd 0%,
+    #cddde4 10.67%,
+    #dfd5ab 32.67%,
+    #e1c96b 57.67%,
+    #b4dbed 84.67%,
+    #b0dbee 88.17%,
+    #a1daf1 100%
+  );
+}
+
+.reviews .reviews-container {
+  padding-top: 48px;
+  padding-bottom: 148px;
+}
+
+.reviews-title {
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.6;
+  text-align: center;
+  color: $_header_color;
+  text-shadow: 0 0 9px #ecfbfd;
+  margin-bottom: 64px;
+}
+
+// .reviews-slide-card {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   text-align: center;
+//   //   height: 100%;
+// }
+
+// .reviews-item {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .reviews-slide-title {
+//   font-family: 'Madimi One', sans-serif;
+//   font-weight: 400;
+//   font-size: 22px;
+//   color: $_text_color;
+//   margin-bottom: 8px;
+// }
+
+// .reviews-slide-content {
+//   font-family: 'Mali', sans-serif;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.6;
+//   color: #17161b;
+// }
+
+// .reviews-description {
+//   padding: 15px 20px 40px 20px;
+//   margin-bottom: 12px;
+//   background-image: url(../img/reviews/card.png);
+//   background-size: 320px 261px;
+//   background-position: top;
+//   background-repeat: no-repeat;
+// }
+
+.swiper-wrapper .reviews-slide-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  width: 100%;
+  max-width: 320px;
+  height: 258px;
+  background-image: url(../img/reviews/card.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 25px 20px 40px 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.reviews-item {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.reviews-slide-title {
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: $_text_color;
+  margin-bottom: 8px;
+}
+
+.reviews-slide-content {
+  font-family: 'Mali', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #17161b;
+}
