@@ -38,6 +38,10 @@
   color: $_header_color;
   text-shadow: 0 0 9px #ecfbfd;
   margin-bottom: 64px;
+  @include media(desktop) {
+    font-size: 48px;
+    margin-bottom: 80px;
+  }
 }
 
 .swiper-wrapper .reviews-slide-card {
