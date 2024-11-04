@@ -1,12 +1,13 @@
 .faq {
   padding: 48px 0;
   background: linear-gradient(
-    172deg,
-    #79d3f6 1%,
-    #81d4f4 9.29%,
-    #cddde4 25.26%,
-    #dfd5ab 48.57%,
-    #e1c96b 85.67%
+    175deg,
+    #79d3f6 5%,
+    #81d4f4 20%,
+    #a3d6ea 35%,
+    #cddde4 50%,
+    #dfd5ab 65%,
+    #e1c96b 85%
   );
 }
 
@@ -14,6 +15,7 @@
   .faq .container-faq {
     padding-left: 128px;
     padding-right: 128px;
+    padding-top: 64px;
   }
 }
 
@@ -78,7 +80,7 @@
   @include media(desktop) {
     justify-content: flex-start;
     flex-direction: row;
-    gap: 10px;
+    gap: 40px;
   }
 }
 

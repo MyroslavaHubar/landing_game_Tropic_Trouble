@@ -1,10 +1,43 @@
 .about {
+  position: relative;
   background: linear-gradient(
     180deg,
     #a8daf1 0%,
     #a0d9f2 19.17%,
     #bddce8 51.5%,
     #7bd4f6 97.5%
+  );
+  overflow: visible;
+  z-index: 1;
+}
+
+.about::before,
+.about::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50px;
+  pointer-events: none;
+  z-index: -1;
+  filter: blur(10px);
+}
+
+.about::before {
+  top: -25px;
+  background: linear-gradient(
+    to bottom,
+    rgba(168, 218, 241, 1),
+    rgba(168, 218, 241, 5)
+  );
+}
+
+.about::after {
+  bottom: -15px;
+  background: linear-gradient(
+    to top,
+    rgba(123, 212, 246, 1),
+    rgba(123, 212, 246, 4)
   );
 }
 

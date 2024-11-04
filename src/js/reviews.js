@@ -15,7 +15,8 @@ new Swiper('.reviews-swiper', {
   breakpoints: {
     1200: {
       slidesPerView: 3,
-      spaceBetween: 24,
+      spaceBetween: 44,
+      centeredSlides: true,
     },
   },
 });
