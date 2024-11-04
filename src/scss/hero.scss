@@ -10,7 +10,7 @@
 
   @include media(desktop) {
     margin-top: 88px;
-    background-image: radial-gradient(
+    background: radial-gradient(
       240.02% 223.81% at -34.71% -86.81%,
       rgb(95, 147, 226) 0%,
       rgb(115, 209, 255) 10.078199207782745%,
@@ -23,14 +23,19 @@
 }
 .hero-wrap {
   padding-top: 10px;
-  background-image: url(../img/hero/hero-bg-mob.png);
+  background-image: url(../img//hero/bg-mob.png),
+    url(../img/hero/hero-bg-mob-dark.png);
   background-size: contain;
-  background-position: center;
+  background-position: bottom 250px center, center;
   background-repeat: no-repeat;
   @include media(desktop) {
     padding-top: 48px;
-    background-image: url(../img/hero/hero-bg-desktop.png);
-    background-position: right;
+    background: url(../img//hero/image_home\ 1.png) top 96px right 303px,
+      url(../img//hero/image_home\ 2.png) top 48px right 207px,
+      url(../img/hero/image_home\ 3.png) right;
+    background-repeat: no-repeat;
+    // background-image: none;
+    // background-position: right;
   }
 }
 
@@ -40,7 +45,7 @@
   @include media(desktop) {
     padding-top: 182px;
     padding-bottom: 272px;
-    padding-left: 128px;
+    padding-left: 112px;
   }
 }
 .hero-title {
