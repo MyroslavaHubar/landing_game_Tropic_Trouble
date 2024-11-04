@@ -18,6 +18,14 @@
   @include media(desktop) {
     padding-top: 64px;
     padding-bottom: 164px;
+    padding-left: 116px;
+    padding-right: 116px;
+  }
+}
+
+@include media(desktop) {
+  .reviews-swiper {
+    overflow: hidden;
   }
 }
 
